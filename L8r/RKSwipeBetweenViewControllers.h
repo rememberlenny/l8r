@@ -147,7 +147,7 @@
      already, so I won't get into detail.
  */
 
-@protocol RKSwipeBetweenViewControllersDelegate <NSObject>
+@protocol RKSwipeBetweenViewControllersDelegate
 
 @end
 

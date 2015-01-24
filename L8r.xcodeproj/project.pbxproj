@@ -15,6 +15,9 @@
 		03DBECA61A73FE28006B890A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03DBECA41A73FE28006B890A /* LaunchScreen.xib */; };
 		03DBECB21A73FE28006B890A /* L8rTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DBECB11A73FE28006B890A /* L8rTests.m */; };
 		03DBECD51A73FFB1006B890A /* RKSwipeBetweenViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DBECD41A73FFB1006B890A /* RKSwipeBetweenViewControllers.m */; };
+		03DBECD71A74018E006B890A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DBECD61A74018E006B890A /* CoreGraphics.framework */; };
+		03DBECD91A740194006B890A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DBECD81A740194006B890A /* UIKit.framework */; };
+		03DBECDB1A7401A0006B890A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DBECDA1A7401A0006B890A /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,9 @@
 		03DBECB11A73FE28006B890A /* L8rTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = L8rTests.m; sourceTree = "<group>"; };
 		03DBECD31A73FFB1006B890A /* RKSwipeBetweenViewControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKSwipeBetweenViewControllers.h; sourceTree = "<group>"; };
 		03DBECD41A73FFB1006B890A /* RKSwipeBetweenViewControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKSwipeBetweenViewControllers.m; sourceTree = "<group>"; };
+		03DBECD61A74018E006B890A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		03DBECD81A740194006B890A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		03DBECDA1A7401A0006B890A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +56,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03DBECDB1A7401A0006B890A /* Foundation.framework in Frameworks */,
+				03DBECD91A740194006B890A /* UIKit.framework in Frameworks */,
+				03DBECD71A74018E006B890A /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +75,9 @@
 		03DBEC891A73FE28006B890A = {
 			isa = PBXGroup;
 			children = (
+				03DBECDA1A7401A0006B890A /* Foundation.framework */,
+				03DBECD81A740194006B890A /* UIKit.framework */,
+				03DBECD61A74018E006B890A /* CoreGraphics.framework */,
 				03DBEC941A73FE28006B890A /* L8r */,
 				03DBECAE1A73FE28006B890A /* L8rTests */,
 				03DBEC931A73FE28006B890A /* Products */,
@@ -358,6 +370,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = L8r/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -368,6 +381,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = L8r/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -426,6 +440,7 @@
 				03DBECB71A73FE28006B890A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03DBECB81A73FE28006B890A /* Build configuration list for PBXNativeTarget "L8rTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +449,7 @@
 				03DBECBA1A73FE28006B890A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
