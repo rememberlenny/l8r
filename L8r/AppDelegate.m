@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ATRItemsViewController.h"
 #import "RKSwipeBetweenViewControllers.h"
 
 @implementation AppDelegate
@@ -22,15 +22,15 @@
     RKSwipeBetweenViewControllers *navigationController = [[RKSwipeBetweenViewControllers alloc]initWithRootViewController:pageController];
     
     //%%% DEMO CONTROLLERS
-    UIViewController *demo = [[UIViewController alloc]init];
-    UIViewController *demo2 = [[UIViewController alloc]init];
+    ATRItemsViewController *inbox = [[ATRItemsViewController alloc]init];
+    UIViewController *camera = [[UIViewController alloc]init];
     UIViewController *demo3 = [[UIViewController alloc]init];
     UIViewController *demo4 = [[UIViewController alloc]init];
-    demo.view.backgroundColor = [UIColor redColor];
-    demo2.view.backgroundColor = [UIColor whiteColor];
+    inbox.view.backgroundColor = [UIColor redColor];
+    camera.view.backgroundColor = [UIColor whiteColor];
     demo3.view.backgroundColor = [UIColor grayColor];
     demo4.view.backgroundColor = [UIColor orangeColor];
-    [navigationController.viewControllerArray addObjectsFromArray:@[demo,demo2,demo3/*,demo4*/]];
+    [navigationController.viewControllerArray addObjectsFromArray:@[inbox,camera,demo3/*,demo4*/]];
     
     self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];
