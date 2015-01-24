@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03A7AD631A740431009377B0 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A7AD601A740431009377B0 /* HomeViewController.m */; };
+		03A7AD641A740431009377B0 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A7AD621A740431009377B0 /* ImageViewController.m */; };
+		03A7AD6B1A740439009377B0 /* UIImage+Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A7AD661A740439009377B0 /* UIImage+Crop.m */; };
+		03A7AD6C1A740439009377B0 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A7AD681A740439009377B0 /* UIImage+Resize.m */; };
+		03A7AD6D1A740439009377B0 /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A7AD6A1A740439009377B0 /* ViewUtils.m */; };
 		03DBEC981A73FE28006B890A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DBEC971A73FE28006B890A /* main.m */; };
 		03DBEC9B1A73FE28006B890A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DBEC9A1A73FE28006B890A /* AppDelegate.m */; };
 		03DBEC9E1A73FE28006B890A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DBEC9D1A73FE28006B890A /* ViewController.m */; };
@@ -41,6 +46,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03A7AD5F1A740431009377B0 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		03A7AD601A740431009377B0 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		03A7AD611A740431009377B0 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		03A7AD621A740431009377B0 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		03A7AD651A740439009377B0 /* UIImage+Crop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Crop.h"; sourceTree = "<group>"; };
+		03A7AD661A740439009377B0 /* UIImage+Crop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Crop.m"; sourceTree = "<group>"; };
+		03A7AD671A740439009377B0 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		03A7AD681A740439009377B0 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		03A7AD691A740439009377B0 /* ViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewUtils.h; sourceTree = "<group>"; };
+		03A7AD6A1A740439009377B0 /* ViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewUtils.m; sourceTree = "<group>"; };
 		03DBEC921A73FE28006B890A /* L8r.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = L8r.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03DBEC961A73FE28006B890A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03DBEC971A73FE28006B890A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -102,6 +117,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03A7AD5B1A7403D0009377B0 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				03A7AD651A740439009377B0 /* UIImage+Crop.h */,
+				03A7AD661A740439009377B0 /* UIImage+Crop.m */,
+				03A7AD671A740439009377B0 /* UIImage+Resize.h */,
+				03A7AD681A740439009377B0 /* UIImage+Resize.m */,
+				03A7AD691A740439009377B0 /* ViewUtils.h */,
+				03A7AD6A1A740439009377B0 /* ViewUtils.m */,
+				03A7AD5F1A740431009377B0 /* HomeViewController.h */,
+				03A7AD601A740431009377B0 /* HomeViewController.m */,
+				03A7AD611A740431009377B0 /* ImageViewController.h */,
+				03A7AD621A740431009377B0 /* ImageViewController.m */,
+			);
+			name = Camera;
+			sourceTree = "<group>";
+		};
 		03DBEC891A73FE28006B890A = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +160,7 @@
 		03DBEC941A73FE28006B890A /* L8r */ = {
 			isa = PBXGroup;
 			children = (
+				03A7AD5B1A7403D0009377B0 /* Camera */,
 				03DBECDC1A74020D006B890A /* Inbox */,
 				03DBECD21A73FFA5006B890A /* RKSwipeViewControllers */,
 				03DBEC991A73FE28006B890A /* AppDelegate.h */,
@@ -356,15 +389,20 @@
 			files = (
 				03DBECF01A74021B006B890A /* ATRImageViewController.m in Sources */,
 				03DBECF51A74021B006B890A /* ATRItemsViewController.m in Sources */,
+				03A7AD6D1A740439009377B0 /* ViewUtils.m in Sources */,
 				03DBECF21A74021B006B890A /* ATRItemCell.m in Sources */,
+				03A7AD6B1A740439009377B0 /* UIImage+Crop.m in Sources */,
 				03DBEC9E1A73FE28006B890A /* ViewController.m in Sources */,
 				03DBECF11A74021B006B890A /* ATRItem.m in Sources */,
+				03A7AD641A740431009377B0 /* ImageViewController.m in Sources */,
 				03DBECED1A74021B006B890A /* ATRDetailViewController.m in Sources */,
 				03DBEC9B1A73FE28006B890A /* AppDelegate.m in Sources */,
 				03DBEC981A73FE28006B890A /* main.m in Sources */,
 				03DBECD51A73FFB1006B890A /* RKSwipeBetweenViewControllers.m in Sources */,
 				03DBECF41A74021B006B890A /* ATRItemStore.m in Sources */,
 				03DBECEF1A74021B006B890A /* ATRImageStore.m in Sources */,
+				03A7AD631A740431009377B0 /* HomeViewController.m in Sources */,
+				03A7AD6C1A740439009377B0 /* UIImage+Resize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

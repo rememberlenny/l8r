@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FE38566B-B930-42BF-B851-996576D37E96</string>
+	<key>IDESourceControlProjectName</key>
+	<string>L8r</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C186F0B8A34439BBD46E4C47486154EF10AA1B5D</key>
+		<string>github.com:rememberlenny/l8r.git</string>
+		<key>FB4B755D41B7531839CD4CCBA278F1644B1115A0</key>
+		<string>github.com:rememberlenny/HomePwner-iod.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>L8r.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C186F0B8A34439BBD46E4C47486154EF10AA1B5D</key>
+		<string>..</string>
+		<key>FB4B755D41B7531839CD4CCBA278F1644B1115A0</key>
+		<string>../../HomePwner</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:rememberlenny/l8r.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C186F0B8A34439BBD46E4C47486154EF10AA1B5D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FB4B755D41B7531839CD4CCBA278F1644B1115A0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HomePwner</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C186F0B8A34439BBD46E4C47486154EF10AA1B5D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>L8r</string>
+		</dict>
+	</array>
+</dict>
+</plist>

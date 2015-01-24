@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "ATRItemsViewController.h"
 #import "RKSwipeBetweenViewControllers.h"
+#import "HomeViewController.h"
 
 @implementation AppDelegate
 
@@ -23,7 +24,7 @@
     
     //%%% DEMO CONTROLLERS
     ATRItemsViewController *inbox = [[ATRItemsViewController alloc]init];
-    UIViewController *camera = [[UIViewController alloc]init];
+    HomeViewController *camera = [[HomeViewController alloc]init];
     UIViewController *demo3 = [[UIViewController alloc]init];
     UIViewController *demo4 = [[UIViewController alloc]init];
     inbox.view.backgroundColor = [UIColor redColor];
