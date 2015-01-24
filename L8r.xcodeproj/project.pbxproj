@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0376AB971A740A25003517F7 /* ATRDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0376AB881A740A25003517F7 /* ATRDetailViewController.m */; };
+		0376AB981A740A25003517F7 /* ATRDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0376AB891A740A25003517F7 /* ATRDetailViewController.xib */; };
+		0376AB991A740A25003517F7 /* ATRImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0376AB8B1A740A25003517F7 /* ATRImageStore.m */; };
+		0376AB9A1A740A25003517F7 /* ATRImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0376AB8D1A740A25003517F7 /* ATRImageViewController.m */; };
+		0376AB9B1A740A25003517F7 /* ATRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0376AB8F1A740A25003517F7 /* ATRItem.m */; };
+		0376AB9C1A740A25003517F7 /* ATRItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0376AB911A740A25003517F7 /* ATRItemCell.m */; };
+		0376AB9D1A740A25003517F7 /* ATRItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0376AB921A740A25003517F7 /* ATRItemCell.xib */; };
+		0376AB9E1A740A25003517F7 /* ATRItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0376AB941A740A25003517F7 /* ATRItemStore.m */; };
+		0376AB9F1A740A25003517F7 /* ATRItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0376AB961A740A25003517F7 /* ATRItemsViewController.m */; };
 		03A7AD631A740431009377B0 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A7AD601A740431009377B0 /* HomeViewController.m */; };
 		03A7AD641A740431009377B0 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A7AD621A740431009377B0 /* ImageViewController.m */; };
 		03A7AD6B1A740439009377B0 /* UIImage+Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A7AD661A740439009377B0 /* UIImage+Crop.m */; };
@@ -23,15 +32,6 @@
 		03DBECD71A74018E006B890A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DBECD61A74018E006B890A /* CoreGraphics.framework */; };
 		03DBECD91A740194006B890A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DBECD81A740194006B890A /* UIKit.framework */; };
 		03DBECDB1A7401A0006B890A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03DBECDA1A7401A0006B890A /* Foundation.framework */; };
-		03DBECED1A74021B006B890A /* ATRDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DBECDE1A74021B006B890A /* ATRDetailViewController.m */; };
-		03DBECEE1A74021B006B890A /* ATRDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03DBECDF1A74021B006B890A /* ATRDetailViewController.xib */; };
-		03DBECEF1A74021B006B890A /* ATRImageStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DBECE11A74021B006B890A /* ATRImageStore.m */; };
-		03DBECF01A74021B006B890A /* ATRImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DBECE31A74021B006B890A /* ATRImageViewController.m */; };
-		03DBECF11A74021B006B890A /* ATRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DBECE51A74021B006B890A /* ATRItem.m */; };
-		03DBECF21A74021B006B890A /* ATRItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DBECE71A74021B006B890A /* ATRItemCell.m */; };
-		03DBECF31A74021B006B890A /* ATRItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03DBECE81A74021B006B890A /* ATRItemCell.xib */; };
-		03DBECF41A74021B006B890A /* ATRItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DBECEA1A74021B006B890A /* ATRItemStore.m */; };
-		03DBECF51A74021B006B890A /* ATRItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DBECEC1A74021B006B890A /* ATRItemsViewController.m */; };
 		B1C4CFF528943ED5CA6C027B /* libPods-L8r.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 664EF44EECE20D6D3A5EC7FB /* libPods-L8r.a */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +46,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0376AB871A740A25003517F7 /* ATRDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATRDetailViewController.h; sourceTree = "<group>"; };
+		0376AB881A740A25003517F7 /* ATRDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATRDetailViewController.m; sourceTree = "<group>"; };
+		0376AB891A740A25003517F7 /* ATRDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATRDetailViewController.xib; sourceTree = "<group>"; };
+		0376AB8A1A740A25003517F7 /* ATRImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATRImageStore.h; sourceTree = "<group>"; };
+		0376AB8B1A740A25003517F7 /* ATRImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATRImageStore.m; sourceTree = "<group>"; };
+		0376AB8C1A740A25003517F7 /* ATRImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATRImageViewController.h; sourceTree = "<group>"; };
+		0376AB8D1A740A25003517F7 /* ATRImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATRImageViewController.m; sourceTree = "<group>"; };
+		0376AB8E1A740A25003517F7 /* ATRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATRItem.h; sourceTree = "<group>"; };
+		0376AB8F1A740A25003517F7 /* ATRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATRItem.m; sourceTree = "<group>"; };
+		0376AB901A740A25003517F7 /* ATRItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATRItemCell.h; sourceTree = "<group>"; };
+		0376AB911A740A25003517F7 /* ATRItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATRItemCell.m; sourceTree = "<group>"; };
+		0376AB921A740A25003517F7 /* ATRItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ATRItemCell.xib; sourceTree = "<group>"; };
+		0376AB931A740A25003517F7 /* ATRItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATRItemStore.h; sourceTree = "<group>"; };
+		0376AB941A740A25003517F7 /* ATRItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATRItemStore.m; sourceTree = "<group>"; };
+		0376AB951A740A25003517F7 /* ATRItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATRItemsViewController.h; sourceTree = "<group>"; };
+		0376AB961A740A25003517F7 /* ATRItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATRItemsViewController.m; sourceTree = "<group>"; };
 		03A7AD5F1A740431009377B0 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		03A7AD601A740431009377B0 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		03A7AD611A740431009377B0 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
@@ -74,22 +90,6 @@
 		03DBECD61A74018E006B890A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		03DBECD81A740194006B890A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		03DBECDA1A7401A0006B890A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		03DBECDD1A74021B006B890A /* ATRDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATRDetailViewController.h; path = ../../HomePwner/HomePwner/ATRDetailViewController.h; sourceTree = "<group>"; };
-		03DBECDE1A74021B006B890A /* ATRDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATRDetailViewController.m; path = ../../HomePwner/HomePwner/ATRDetailViewController.m; sourceTree = "<group>"; };
-		03DBECDF1A74021B006B890A /* ATRDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ATRDetailViewController.xib; path = ../../HomePwner/HomePwner/ATRDetailViewController.xib; sourceTree = "<group>"; };
-		03DBECE01A74021B006B890A /* ATRImageStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATRImageStore.h; path = ../../HomePwner/HomePwner/ATRImageStore.h; sourceTree = "<group>"; };
-		03DBECE11A74021B006B890A /* ATRImageStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATRImageStore.m; path = ../../HomePwner/HomePwner/ATRImageStore.m; sourceTree = "<group>"; };
-		03DBECE21A74021B006B890A /* ATRImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATRImageViewController.h; path = ../../HomePwner/HomePwner/ATRImageViewController.h; sourceTree = "<group>"; };
-		03DBECE31A74021B006B890A /* ATRImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATRImageViewController.m; path = ../../HomePwner/HomePwner/ATRImageViewController.m; sourceTree = "<group>"; };
-		03DBECE41A74021B006B890A /* ATRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATRItem.h; path = ../../HomePwner/HomePwner/ATRItem.h; sourceTree = "<group>"; };
-		03DBECE51A74021B006B890A /* ATRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATRItem.m; path = ../../HomePwner/HomePwner/ATRItem.m; sourceTree = "<group>"; };
-		03DBECE61A74021B006B890A /* ATRItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATRItemCell.h; path = ../../HomePwner/HomePwner/ATRItemCell.h; sourceTree = "<group>"; };
-		03DBECE71A74021B006B890A /* ATRItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATRItemCell.m; path = ../../HomePwner/HomePwner/ATRItemCell.m; sourceTree = "<group>"; };
-		03DBECE81A74021B006B890A /* ATRItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ATRItemCell.xib; path = ../../HomePwner/HomePwner/ATRItemCell.xib; sourceTree = "<group>"; };
-		03DBECE91A74021B006B890A /* ATRItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATRItemStore.h; path = ../../HomePwner/HomePwner/ATRItemStore.h; sourceTree = "<group>"; };
-		03DBECEA1A74021B006B890A /* ATRItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATRItemStore.m; path = ../../HomePwner/HomePwner/ATRItemStore.m; sourceTree = "<group>"; };
-		03DBECEB1A74021B006B890A /* ATRItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATRItemsViewController.h; path = ../../HomePwner/HomePwner/ATRItemsViewController.h; sourceTree = "<group>"; };
-		03DBECEC1A74021B006B890A /* ATRItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATRItemsViewController.m; path = ../../HomePwner/HomePwner/ATRItemsViewController.m; sourceTree = "<group>"; };
 		64DB0595E66B9D2ABD34B468 /* Pods-L8r.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-L8r.release.xcconfig"; path = "Pods/Target Support Files/Pods-L8r/Pods-L8r.release.xcconfig"; sourceTree = "<group>"; };
 		664EF44EECE20D6D3A5EC7FB /* libPods-L8r.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-L8r.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA9CF94C511FD4E08E663F62 /* Pods-L8r.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-L8r.debug.xcconfig"; path = "Pods/Target Support Files/Pods-L8r/Pods-L8r.debug.xcconfig"; sourceTree = "<group>"; };
@@ -213,22 +213,22 @@
 		03DBECDC1A74020D006B890A /* Inbox */ = {
 			isa = PBXGroup;
 			children = (
-				03DBECDD1A74021B006B890A /* ATRDetailViewController.h */,
-				03DBECDE1A74021B006B890A /* ATRDetailViewController.m */,
-				03DBECDF1A74021B006B890A /* ATRDetailViewController.xib */,
-				03DBECE01A74021B006B890A /* ATRImageStore.h */,
-				03DBECE11A74021B006B890A /* ATRImageStore.m */,
-				03DBECE21A74021B006B890A /* ATRImageViewController.h */,
-				03DBECE31A74021B006B890A /* ATRImageViewController.m */,
-				03DBECE41A74021B006B890A /* ATRItem.h */,
-				03DBECE51A74021B006B890A /* ATRItem.m */,
-				03DBECE61A74021B006B890A /* ATRItemCell.h */,
-				03DBECE71A74021B006B890A /* ATRItemCell.m */,
-				03DBECE81A74021B006B890A /* ATRItemCell.xib */,
-				03DBECE91A74021B006B890A /* ATRItemStore.h */,
-				03DBECEA1A74021B006B890A /* ATRItemStore.m */,
-				03DBECEB1A74021B006B890A /* ATRItemsViewController.h */,
-				03DBECEC1A74021B006B890A /* ATRItemsViewController.m */,
+				0376AB871A740A25003517F7 /* ATRDetailViewController.h */,
+				0376AB881A740A25003517F7 /* ATRDetailViewController.m */,
+				0376AB891A740A25003517F7 /* ATRDetailViewController.xib */,
+				0376AB8A1A740A25003517F7 /* ATRImageStore.h */,
+				0376AB8B1A740A25003517F7 /* ATRImageStore.m */,
+				0376AB8C1A740A25003517F7 /* ATRImageViewController.h */,
+				0376AB8D1A740A25003517F7 /* ATRImageViewController.m */,
+				0376AB8E1A740A25003517F7 /* ATRItem.h */,
+				0376AB8F1A740A25003517F7 /* ATRItem.m */,
+				0376AB901A740A25003517F7 /* ATRItemCell.h */,
+				0376AB911A740A25003517F7 /* ATRItemCell.m */,
+				0376AB921A740A25003517F7 /* ATRItemCell.xib */,
+				0376AB931A740A25003517F7 /* ATRItemStore.h */,
+				0376AB941A740A25003517F7 /* ATRItemStore.m */,
+				0376AB951A740A25003517F7 /* ATRItemsViewController.h */,
+				0376AB961A740A25003517F7 /* ATRItemsViewController.m */,
 			);
 			name = Inbox;
 			sourceTree = "<group>";
@@ -333,10 +333,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				03DBECA11A73FE28006B890A /* Main.storyboard in Resources */,
-				03DBECEE1A74021B006B890A /* ATRDetailViewController.xib in Resources */,
+				0376AB981A740A25003517F7 /* ATRDetailViewController.xib in Resources */,
 				03DBECA61A73FE28006B890A /* LaunchScreen.xib in Resources */,
 				03DBECA31A73FE28006B890A /* Images.xcassets in Resources */,
-				03DBECF31A74021B006B890A /* ATRItemCell.xib in Resources */,
+				0376AB9D1A740A25003517F7 /* ATRItemCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,21 +387,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03DBECF01A74021B006B890A /* ATRImageViewController.m in Sources */,
-				03DBECF51A74021B006B890A /* ATRItemsViewController.m in Sources */,
 				03A7AD6D1A740439009377B0 /* ViewUtils.m in Sources */,
-				03DBECF21A74021B006B890A /* ATRItemCell.m in Sources */,
+				0376AB9B1A740A25003517F7 /* ATRItem.m in Sources */,
+				0376AB9C1A740A25003517F7 /* ATRItemCell.m in Sources */,
+				0376AB9E1A740A25003517F7 /* ATRItemStore.m in Sources */,
+				0376AB971A740A25003517F7 /* ATRDetailViewController.m in Sources */,
 				03A7AD6B1A740439009377B0 /* UIImage+Crop.m in Sources */,
 				03DBEC9E1A73FE28006B890A /* ViewController.m in Sources */,
-				03DBECF11A74021B006B890A /* ATRItem.m in Sources */,
 				03A7AD641A740431009377B0 /* ImageViewController.m in Sources */,
-				03DBECED1A74021B006B890A /* ATRDetailViewController.m in Sources */,
 				03DBEC9B1A73FE28006B890A /* AppDelegate.m in Sources */,
 				03DBEC981A73FE28006B890A /* main.m in Sources */,
 				03DBECD51A73FFB1006B890A /* RKSwipeBetweenViewControllers.m in Sources */,
-				03DBECF41A74021B006B890A /* ATRItemStore.m in Sources */,
-				03DBECEF1A74021B006B890A /* ATRImageStore.m in Sources */,
+				0376AB9F1A740A25003517F7 /* ATRItemsViewController.m in Sources */,
+				0376AB9A1A740A25003517F7 /* ATRImageViewController.m in Sources */,
 				03A7AD631A740431009377B0 /* HomeViewController.m in Sources */,
+				0376AB991A740A25003517F7 /* ATRImageStore.m in Sources */,
 				03A7AD6C1A740439009377B0 /* UIImage+Resize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
