@@ -14,6 +14,7 @@
 		03DBECA31A73FE28006B890A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03DBECA21A73FE28006B890A /* Images.xcassets */; };
 		03DBECA61A73FE28006B890A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03DBECA41A73FE28006B890A /* LaunchScreen.xib */; };
 		03DBECB21A73FE28006B890A /* L8rTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DBECB11A73FE28006B890A /* L8rTests.m */; };
+		03DBECD51A73FFB1006B890A /* RKSwipeBetweenViewControllers.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DBECD41A73FFB1006B890A /* RKSwipeBetweenViewControllers.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		03DBECAB1A73FE28006B890A /* L8rTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = L8rTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03DBECB01A73FE28006B890A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03DBECB11A73FE28006B890A /* L8rTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = L8rTests.m; sourceTree = "<group>"; };
+		03DBECD31A73FFB1006B890A /* RKSwipeBetweenViewControllers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RKSwipeBetweenViewControllers.h; sourceTree = "<group>"; };
+		03DBECD41A73FFB1006B890A /* RKSwipeBetweenViewControllers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RKSwipeBetweenViewControllers.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		03DBEC941A73FE28006B890A /* L8r */ = {
 			isa = PBXGroup;
 			children = (
+				03DBECD21A73FFA5006B890A /* RKSwipeViewControllers */,
 				03DBEC991A73FE28006B890A /* AppDelegate.h */,
 				03DBEC9A1A73FE28006B890A /* AppDelegate.m */,
 				03DBEC9C1A73FE28006B890A /* ViewController.h */,
@@ -117,6 +121,15 @@
 				03DBECB01A73FE28006B890A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03DBECD21A73FFA5006B890A /* RKSwipeViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				03DBECD31A73FFB1006B890A /* RKSwipeBetweenViewControllers.h */,
+				03DBECD41A73FFB1006B890A /* RKSwipeBetweenViewControllers.m */,
+			);
+			name = RKSwipeViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +235,7 @@
 				03DBEC9E1A73FE28006B890A /* ViewController.m in Sources */,
 				03DBEC9B1A73FE28006B890A /* AppDelegate.m in Sources */,
 				03DBEC981A73FE28006B890A /* main.m in Sources */,
+				03DBECD51A73FFB1006B890A /* RKSwipeBetweenViewControllers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
