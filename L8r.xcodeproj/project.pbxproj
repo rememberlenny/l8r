@@ -27,6 +27,7 @@
 		03DBECF31A74021B006B890A /* ATRItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03DBECE81A74021B006B890A /* ATRItemCell.xib */; };
 		03DBECF41A74021B006B890A /* ATRItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DBECEA1A74021B006B890A /* ATRItemStore.m */; };
 		03DBECF51A74021B006B890A /* ATRItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03DBECEC1A74021B006B890A /* ATRItemsViewController.m */; };
+		B1C4CFF528943ED5CA6C027B /* libPods-L8r.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 664EF44EECE20D6D3A5EC7FB /* libPods-L8r.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,9 @@
 		03DBECEA1A74021B006B890A /* ATRItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATRItemStore.m; path = ../../HomePwner/HomePwner/ATRItemStore.m; sourceTree = "<group>"; };
 		03DBECEB1A74021B006B890A /* ATRItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ATRItemsViewController.h; path = ../../HomePwner/HomePwner/ATRItemsViewController.h; sourceTree = "<group>"; };
 		03DBECEC1A74021B006B890A /* ATRItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ATRItemsViewController.m; path = ../../HomePwner/HomePwner/ATRItemsViewController.m; sourceTree = "<group>"; };
+		64DB0595E66B9D2ABD34B468 /* Pods-L8r.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-L8r.release.xcconfig"; path = "Pods/Target Support Files/Pods-L8r/Pods-L8r.release.xcconfig"; sourceTree = "<group>"; };
+		664EF44EECE20D6D3A5EC7FB /* libPods-L8r.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-L8r.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA9CF94C511FD4E08E663F62 /* Pods-L8r.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-L8r.debug.xcconfig"; path = "Pods/Target Support Files/Pods-L8r/Pods-L8r.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 				03DBECDB1A7401A0006B890A /* Foundation.framework in Frameworks */,
 				03DBECD91A740194006B890A /* UIKit.framework in Frameworks */,
 				03DBECD71A74018E006B890A /* CoreGraphics.framework in Frameworks */,
+				B1C4CFF528943ED5CA6C027B /* libPods-L8r.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +111,8 @@
 				03DBEC941A73FE28006B890A /* L8r */,
 				03DBECAE1A73FE28006B890A /* L8rTests */,
 				03DBEC931A73FE28006B890A /* Products */,
+				366E01C135B23E1089769E51 /* Pods */,
+				A05A6590118C019FF6A6B712 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -193,6 +200,23 @@
 			name = Inbox;
 			sourceTree = "<group>";
 		};
+		366E01C135B23E1089769E51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA9CF94C511FD4E08E663F62 /* Pods-L8r.debug.xcconfig */,
+				64DB0595E66B9D2ABD34B468 /* Pods-L8r.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A05A6590118C019FF6A6B712 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				664EF44EECE20D6D3A5EC7FB /* libPods-L8r.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -200,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03DBECB51A73FE28006B890A /* Build configuration list for PBXNativeTarget "L8r" */;
 			buildPhases = (
+				35985BB18AD4C721302CD4B0 /* Check Pods Manifest.lock */,
 				03DBEC8E1A73FE28006B890A /* Sources */,
 				03DBEC8F1A73FE28006B890A /* Frameworks */,
 				03DBEC901A73FE28006B890A /* Resources */,
+				0C1C4EDB5348A75BCDEAE628 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -289,6 +315,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C1C4EDB5348A75BCDEAE628 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-L8r/Pods-L8r-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35985BB18AD4C721302CD4B0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		03DBEC8E1A73FE28006B890A /* Sources */ = {
@@ -425,6 +484,7 @@
 		};
 		03DBECB61A73FE28006B890A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA9CF94C511FD4E08E663F62 /* Pods-L8r.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = L8r/Info.plist;
@@ -436,6 +496,7 @@
 		};
 		03DBECB71A73FE28006B890A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64DB0595E66B9D2ABD34B468 /* Pods-L8r.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = L8r/Info.plist;
